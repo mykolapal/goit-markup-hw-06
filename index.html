@@ -206,11 +206,11 @@
             <li class="person-page">
               <!-- На всіх картинках скачати та прописати 1х та 2х -->
               <img
-                srcset="
-                  ./images/team_photo/Mark-min.jpg 1x,
-                  ./images/team_photo/Mark-min.jpg 2x
+                srcset="./images
+                  ./images/team/Mark-min.jpg 1x,
+                  ./images/team/Mark@2x-min.jpg 2x
                 "
-                src="./images/team_photo/Mark-min.jpg"
+                src="./images/team/Mark-min.jpg"
                 width="264"
                 height="260"
                 alt="Mark Guerrero"
@@ -252,7 +252,11 @@
             </li>
             <li class="person-page">
               <img
-                src="./images/team_photo/Tom-min.jpg"
+                srcset="./images
+                  ./images/team/Tom-min.jpg 1x,
+                  ./images/team/Tom@2x-min.jpg 2x
+                "
+                src="./images/team/Tom-min.jpg"
                 width="264"
                 height="260"
                 alt="Tom Ford"
@@ -295,7 +299,11 @@
             </li>
             <li class="person-page">
               <img
-                src="./images/team_photo/Camila-min.jpg"
+                srcset="./images
+                  ./images/team/Camila-min.jpg 1x,
+                  ./images/team/Camila@2x-min.jpg 2x
+                "
+                src="./images/team/Camila-min.jpg"
                 width="264"
                 height="260"
                 alt="Camila Garcia"
@@ -338,7 +346,11 @@
             </li>
             <li class="person-page">
               <img
-                src="./images/team_photo/Daniel-min.jpg"
+                srcset="./images
+                  ./images/team/Daniel-min.jpg 1x,
+                  ./images/team/Daniel@2x-min.jpg 2x
+                "
+                src="./images/team/Daniel-min.jpg"
                 width="264"
                 height="260"
                 alt="Daniel Wilson"
@@ -391,12 +403,29 @@
           <ul class="subtitle-portfolio">
             <li class="info-portfolio">
               <div class="picture-portfolio">
-                <img
-                  src="./images/portfolio_img/img1.jpg"
-                  width="360"
-                  height="300"
-                  alt="img1"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158)"
+                    srcset="
+                      ./images/portfolio_img/portfolio-desc-1-min.jpg    1x,
+                      ./images/portfolio_img/portfolio-desc-1@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768)"
+                    srcset="
+                      ./images/portfolio_img/portfolio-mob-1-min.jpg    1x,
+                      ./images/portfolio_img/portfolio-mob-1@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/portfolio_img/portfolio-desc-1-min.jpg 1x"
+                    width="360"
+                    height="300"
+                    alt="img1"
+                  />
+                </picture>
+
                 <p class="text-portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
