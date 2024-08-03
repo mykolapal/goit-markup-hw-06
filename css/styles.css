@@ -338,7 +338,7 @@ a {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/people-office.jpg");
+      url("../images/hero/people-office-mob@2x-min.jpg");
   }
 }
 
@@ -378,7 +378,7 @@ a {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/people-office.jpg");
+      url("../images/hero/people-office-tab-min.jpg");
   }
   /* Поставити зображення 2x дял планшету*/
   @media screen and (min-device-pixel-ratio: 2),
@@ -389,7 +389,7 @@ a {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url("../images/people-office.jpg");
+        url("../images/hero/people-office-tab@2x-min.jpg");
     }
   }
 
@@ -410,7 +410,7 @@ a {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/people-office.jpg");
+      url("../images/hero/people-office-desc-min.jpg");
   }
   /* Поставити зображення 2x дял десктопу*/
   @media screen and (min-device-pixel-ratio: 2),
@@ -421,7 +421,7 @@ a {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url("../images/people-office.jpg");
+        url("../images/hero/people-office-desc@2x-min.jpg");
     }
   }
 
